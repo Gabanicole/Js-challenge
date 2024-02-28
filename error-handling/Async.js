@@ -4,7 +4,7 @@ let setStudentAgeApi = (student, age, callback) => {
         console.log("2. setting age for the student");
         student.age = age;
         console.log("3. Done ..");
-        callback(student); // Call the callback with the updated student object
+        callback(student); 
     }, 500);
 };
 
